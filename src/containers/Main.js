@@ -18,6 +18,7 @@ import Profile from "./profile/Profile";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
 import "./Main.scss";
+import Contact from "./contact/Contact";
 
 const Main = () => {
   const darkPref = window.matchMedia("(prefers-color-scheme: dark)");
@@ -38,7 +39,7 @@ const Main = () => {
         <WorkExperience />
         <Projects />
         <StartupProject />
-        <Achievement />
+        {/*<Achievement />*/}
         <Blogs />
         <Talks />
         <Twitter />

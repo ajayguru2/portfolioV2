@@ -114,20 +114,17 @@ const educationInfo = {
             schoolName: "Indian Institute of Information Technology, Vadodara",
             logo: require("./assets/images/iiitvLogo.png"),
             subHeader: "Bachelor of Technology in Computer Science",
-            duration: "September 2017 - April 2019",
-            desc: "Participated in the research of XXX and published 3 papers.",
-            descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur ![](../../../../Downloads/14731257_1148792718537675_8100058291865425784_n.png)adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-            ]
+            duration: "July 2016 - July 2020",
+            desc: "",
+            descBullets: []
         },
         {
-            schoolName: "Stanford University",
-            logo: require("./assets/images/stanfordLogo.png"),
-            subHeader: "Bachelor of Science in Computer Science",
-            duration: "September 2013 - April 2017",
-            desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-            descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+            schoolName: "Vibrant Academy",
+            logo: require("./assets/images/vaca-removebg-preview.png"),
+            subHeader: "JEE Prep",
+            duration: "April 2013 - July 2016",
+            desc: "",
+            descBullets: []
         }
     ]
 };
@@ -138,16 +135,16 @@ const techStack = {
     viewSkillBars: true, //Set it to true to show Proficiency Section
     experience: [
         {
+            Stack: "Programming",
+            progressPercentage: "90%"
+        },
+        {
             Stack: "Frontend/Design", //Insert stack or technology you have experience in
-            progressPercentage: "90%" //Insert relative proficiency in percentage
+            progressPercentage: "40%" //Insert relative proficiency in percentage
         },
         {
             Stack: "Backend",
-            progressPercentage: "70%"
-        },
-        {
-            Stack: "Programming",
-            progressPercentage: "60%"
+            progressPercentage: "80%"
         }
     ],
     displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -160,28 +157,33 @@ const workExperiences = {
     experience: [
         {
             role: "Software Engineer",
-            company: "Facebook",
-            companylogo: require("./assets/images/facebookLogo.png"),
-            date: "June 2018 – Present",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            company: "Nymble",
+            companylogo: require("./assets/images/jsdk.png"),
+            date: "Dec 2021 – Present",
             descBullets: [
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                "In charge of HLD and LLD of the machine interaction logic",
+                "Working on primarily with Java and Vue"
             ]
         },
         {
-            role: "Front-End Developer",
-            company: "Quora",
-            companylogo: require("./assets/images/quoraLogo.png"),
-            date: "May 2017 – May 2018",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            role: "Software Craftsperson",
+            company: "Incubyte",
+            companylogo: require("./assets/images/inuasc.jpeg"),
+            date: "Oct 2020 – Dec 2021",
+            descBullets: [
+                "Practicing TDD, I contributed as a fullstack developer for Republic Finance LLC.",
+                "Worked on an array of technologies ranging from Micronaut(Java) to Gin/Gonic (Golang) while maintaining extremely high coding standards and code cleanliness."
+            ]
         },
         {
-            role: "Software Engineer Intern",
-            company: "Airbnb",
-            companylogo: require("./assets/images/airbnbLogo.png"),
-            date: "Jan 2015 – Sep 2015",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            role: "Reseach Intern",
+            company: "Siemens",
+            companylogo: require("./assets/images/sadxas.png"),
+            date: "Jan 2020 – Aug 2020",
+            descBullets: [
+                "Worked on developing an RL based ASHRAE compliant home automation solution to save energy while maintaining comfort. This project was then posed as a challenge at Siemens Global Hackathon 2020.",
+                "Worked on various modules to containerize, enable remote execution, and validate the existing models."
+            ]
         }
     ]
 };
@@ -190,7 +192,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-    showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+    showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
     display: true // Set false to hide this section, defaults to true
 };
 
@@ -224,7 +226,7 @@ const bigProjects = {
             ]
         }
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -282,7 +284,7 @@ const achievementSection = {
             ]
         }
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -290,20 +292,20 @@ const achievementSection = {
 const blogSection = {
     title: "Blogs",
     subtitle:
-        "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+        "I have strong opinions which I pen frivolously",
     displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
     blogs: [
         {
-            url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-            title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+            url: "https://medium.com/@ajayguru/project-based-learning-8cd0baecbe8d",
+            title: "Project based learning",
             description:
-                "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+                "Why is is so much fun learning stuff by doing"
         },
         {
-            url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-            title: "Why REACT is The Best?",
+            url: "https://medium.com/@ajayguru/are-moocs-on-a-disruptive-innovation-trajectory-in-india-395c011a6368",
+            title: "MOOCs and India",
             description:
-                "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+                "Are MOOCs on a disruptive innovation trajectory in India?"
         }
     ],
     display: true // Set false to hide this section, defaults to true
@@ -314,15 +316,15 @@ const blogSection = {
 const talkSection = {
     title: "TALKS",
     subtitle: emoji(
-        "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+        "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND SPEAK PUBLICLY"
     ),
 
     talks: [
         {
-            title: "Build Actions For Google Assistant",
-            subtitle: "Codelab at GDG DevFest Karachi 2019",
-            slides_url: "https://bit.ly/saadpasta-slides",
-            event_url: "https://www.facebook.com/events/2339906106275053/"
+            title: "Concurrency in Golang",
+            subtitle: "Tech Talk @Incubyte",
+            slides_url: "https://files.ajay.guru/ConcurrencyGO.pdf",
+            event_url: "https://www.incubyte.co/"
         }
     ],
     display: true // Set false to hide this section, defaults to true
@@ -331,14 +333,15 @@ const talkSection = {
 // Podcast Section
 
 const podcastSection = {
-    title: emoji("Podcast 🎙️"),
-    subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+    title: emoji("Podcasts 🎙️"),
+    subtitle: "Here are some of the podcasts I think everyone should listen to atleast once",
 
     // Please Provide with Your Podcast embeded Link
     podcast: [
-        "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+        "https://www.listennotes.com/podcasts/the-wan-show-linus-tech-tips-f7H8kwE0Qge/",
+        "https://lnns.co/WmQiGoJjgNT"
     ],
-    display: true // Set false to hide this section, defaults to true
+    display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -352,7 +355,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-    userName: "twitter", //Replace "twitter" with your twitter username without @
+    userName: "AjayGuru0", //Replace "twitter" with your twitter username without @
     display: true // Set true to display this section, defaults to false
 };
 
