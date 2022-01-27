@@ -140,12 +140,21 @@ const techStack = {
         },
         {
             Stack: "Frontend/Design", //Insert stack or technology you have experience in
-            progressPercentage: "40%" //Insert relative proficiency in percentage
+            progressPercentage: "30%" //Insert relative proficiency in percentage
         },
         {
             Stack: "Backend",
-            progressPercentage: "80%"
+            progressPercentage: "74%"
+        },
+        {
+            Stack: "LLD",
+            progressPercentage: "69.69%"
+        },
+        {
+            Stack: "HLD",
+            progressPercentage: "59.69%"
         }
+
     ],
     displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
