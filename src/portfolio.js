@@ -185,7 +185,7 @@ const workExperiences = {
             ]
         },
         {
-            role: "Reseach Intern",
+            role: "Research Intern",
             company: "Siemens",
             companylogo: require("./assets/images/sadxas.png"),
             date: "Jan 2020 – Aug 2020",
